@@ -45,7 +45,7 @@ if $p \preceq q$, then
 	\SetKwInput{KwOutput}{Output}
 
   \KwInput{NFA $\aut = (Q, \Sigma, \delta, I, F)$}
-  \KwOutput{$R = {\preceq}$}
+  \KwOutput{Maximum direct simulation ${\preceq}$ on $\aut$}
 
   \ForEach(\tcp*[f]{preprocessing}){$q \in Q, a \in \Sigma$}{
     compute $\delta^r(q,a)$ as a linked list\;
